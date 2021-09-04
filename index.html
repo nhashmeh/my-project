@@ -55,8 +55,7 @@
         </div>
     <div class="container">
         <div class="image">
-   <!--  <img src="https://raw.githubusercontent.com/nhashmeh/website/main/nadim_volcano.jpg" border="1" alt="Nadim" style="max-width:100%;height:auto;"> -->
-    <img src="https://raw.githubusercontent.com/nhashmeh/website/main/nadim_volcano.jpg" border="1" alt="Nadim" width="247" height="435"/>
+        <img src="https://raw.githubusercontent.com/nhashmeh/website/main/nadim_volcano.jpg" border="1" alt="Nadim" width="247" height="435"/>
 
         </div>
         <div class = "text">
@@ -84,18 +83,19 @@
             </p>
 
         </div>
+        @media all and (max-width:800px)
+        {
+            #image, #text
+            {
+                display: block; 
+                float: none; 
+                width: 100%;
+            }
+        }
           
     </div>
     
 <p><center>*this website is a work in progress*</center></p>
 </body>
-@media all and (max-width:800px)
-{
-    #image, #text
-    {
-        display: block; 
-        float: none; 
-        width: 100%;
-    }
-}
+
 </html>
